@@ -1,0 +1,18 @@
+O MVVM(Model-View-ViewModel) é um modelo de arquitetura presente no mercado há algum tempo, mas é relevante
+para o desenvolvimento mobile especificamente a a partir de 2017 quando a comunidade responsável pelo
+desenvolvimento do Android estabelece como guideline a utilização da mesma como padrão arquitetural
+recomendado para desenvolvimento.
+
+A principal vantagem deste modelo é o desacoplamento entre views, entidades e domínios, visando que haja
+o estabelecimento de um código limpo e com manutenibilidade altíssima.
+
+A View, que seria uma camada de apresentação, cuida idealmente daquilo que é apresentado, enquanto a Model
+é responsável por guardar os dados que serão apresentados; a orquestração de lógica e refinamento entre
+View e Model são feitas pela camada entitulada ViewModel, que é notificada pela View através de interação
+do usuário, relatando ao Model o que é necessário apresentar; após este resgate, o Model passa os dados
+pelo ViewModel, que faz os tratamentos requeridos, para então apresentar na View.
+
+Para uma visualização de como trato o MVVM em meus projetos, segue também o link de um repositório
+meu onde utilizo este padrão:
+
+https://bitbucket.org/lorenzomfonseca/empresas-android/src/master/

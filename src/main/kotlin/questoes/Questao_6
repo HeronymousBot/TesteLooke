@@ -1,0 +1,8 @@
+Neste quesito e partindo de minha experiência, especificamente a partir da string "textviewNomeCompleto"
+não é possível obter uma referência ao Widget citado, visto que, quando  atribuímos um ID ao mesmo,
+estamos gerando um número único que irá acompanhá-lo globalmente ao longo de nossa aplicação, e dentro do próprio
+arquivo XML.
+
+A tentativa de obter via String, especificamente através do componente de recursos getResources() utilizando
+path, seria considerado nesse quesito como uma má prática de programação, mas também um erro crasso no
+desenvolvimento de aplicações nativas em Android.

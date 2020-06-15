@@ -1,0 +1,15 @@
+px - O pixel é a menor unidade possível de exibição onde se pode manifestar uma determinada cor,
+fazendo assim um conjunto ordenado de pixels possa representar uma imagem e/ou representação
+gráfica similar. Logicamente, pode-se admitir que, quanto mais pixels ordenados tivermos, melhor
+será a resolução de um determinado item a ser exibido; esta expansão e compressão de pixels para
+aprimorar visualização gráfica tem se tornado um assunto cada vez mais relevante, e é um tópico
+primordial para entender geração de imagens no ambiente mobile.
+dp - Unidade métrica que visa ser escalável a partir da densidade gráfica de cada aparelho móvel,
+podendo enquadrar um determinado número de pixels(160 por polegada, minimamente) e assim estabelecer
+o posicionamento de itens e interações com usuários de forma mais precisa; também visa que, independente
+do tamanho do aparelho, a visualização não tende a ser afetada, visto que o que muda no caso é a proporção
+de uma tela, e não seu arranjo recorrente.
+sp - Se trata de uma métrica escalável similar ao dp, mas desta vez relacionado especificamente ao que
+concerne ao tamanho das fontes; a vantagem de reigstrar o tamanho da fonte em sp ao invés de px é que
+existe um maior controle do tamanho possível de ser tomado, podendo até mesmo o usuário trocar seu tamanho
+quando bem entender através das configurações de seu telefone.
